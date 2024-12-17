@@ -1,0 +1,33 @@
+/**
+ * This file is the primary tsconfig entry point for typical PhET simulations or libraries.
+ *
+ * @author Sam Reid (PhET Interactive Simulations)
+ * @author Michael Kauzmann (PhET Interactive Simulations)
+ */
+{
+  "extends": "../perennial-alias/tsconfig/tsconfig-core.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Allow accessing UMD globals from modules. */
+    "allowUmdGlobalAccess": true,
+
+    "emitDeclarationOnly": false,
+
+    "jsx": "react",
+    "esModuleInterop": true,
+    "lib": [
+      "es2023",
+      "dom"
+    ],
+  },
+  "include": [
+    "src/index.tsx"
+  ]
+}
