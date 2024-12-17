@@ -1,6 +1,6 @@
 {
   "name": "scenery-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Scenery React component",
   "keywords": [
     "Scenery",
@@ -23,14 +23,12 @@
   "exports": {
     ".": "./dist/index.js"
   },
-  "dependencies": {
-    "scenerystack": "^0.0.9"
-  },
   "devDependencies": {
     "@types/react": "^18.3.12",
     "typescript": "~5.3.3"
   },
   "peerDependencies": {
-    "react": "^18.3.1"
+    "react": "^18.3.1",
+    "scenerystack": "^0.0.10"
   }
 }
