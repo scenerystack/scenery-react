@@ -1,6 +1,6 @@
 {
   "name": "scenery-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Scenery React component",
   "keywords": [
     "Scenery",
@@ -29,6 +29,6 @@
   },
   "peerDependencies": {
     "react": "^18.3.1",
-    "scenerystack": "^0.0.10"
+    "scenerystack": "^0.0.12"
   }
 }
